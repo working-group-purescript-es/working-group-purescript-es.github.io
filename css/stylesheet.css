@@ -1,0 +1,40 @@
+@import url('./fonts.css');
+@import url('./pico.min.css');
+
+:root {
+--font-family: "Basier",system-ui,-apple-system,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+/* Blue-grey Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+#logo {
+  width: 84px;
+  height: 84px;
+  padding: 16px;
+  color: var(--h1-color);
+}
+.external-link::after {
+  content: url("../img/external-link.svg");
+}
+
+table {
+font-variant-numeric: tabular-nums;
+margin-top: 12px;
+}
+
+pre {
+  margin-top: 20px;
+  padding: 8px 16px;
+  line-height: 1.5em;
+  font-family: 'Jetbrains Mono', monospace;
+}
+
+h1 > a { --color: var(--h1-color); }
+h1 > a:hover { --color: var(--h1-color); }
+h2 > a { --color: var(--h2-color); }
+h2 > a:hover { --color: var(--h2-color); }
+h3 > a { --color: var(--h3-color); }
+h3 > a:hover { --color: var(--h3-color); }
+h4 > a { --color: var(--h4-color); }
+h4 > a:hover { --color: var(--h4-color); }
+h5 > a { --color: var(--h5-color); }
+h5 > a { --color: var(--h5-color); }

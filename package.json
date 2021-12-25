@@ -1,0 +1,15 @@
+{
+  "name": "working-group-purescript-es.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:working-group-purescript-es/working-group-purescript-es.github.io.git",
+  "author": "Mark Eibes <mark.eibes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "spago build && node build.mjs"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
