@@ -1,4 +1,4 @@
-module Page.Common.Header (pageHeader) where
+module Page.Common.Header (pageHeader, links) where
 
 import Page.Util.Prelude
 
