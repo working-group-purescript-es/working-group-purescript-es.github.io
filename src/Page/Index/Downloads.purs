@@ -29,7 +29,7 @@ downloadTable =
             { arch: "x64", href: "https://github.com/working-group-purescript-es/purescript/releases/download/v0.15.0-alpha/purs-linux-amd64", date: "2021-01-17" }
             { arch: "arm64", href: "N/A", date: "-" }
         , downloadTableRow "macOS"
-            { arch: "Intel", href: "N/A", date: "-" }
+            { arch: "Intel", href: "https://github.com/working-group-purescript-es/purescript/releases/download/v0.15.0-alpha/purs-mac-x86_64", date: "2021-01-17" }
             { arch: "Apple Silicon", href: "https://github.com/working-group-purescript-es/purescript/releases/download/v0.15.0-alpha/purs-mac-arm64", date: "2021-01-17" }
         ]
     ]
