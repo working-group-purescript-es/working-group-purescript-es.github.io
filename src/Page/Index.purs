@@ -55,7 +55,7 @@ buildYourselfSection =
   section "Build the compiler yourself"
     [ pre_
         [ text
-            """git clone -b es-modules git@github.com:working-group-purescript-es/purescript.git purescript-es
+            """git clone -b es-modules+purity-annotations git@github.com:working-group-purescript-es/purescript.git purescript-es
 cd purescript-es
 stack install"""
         ]
