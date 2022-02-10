@@ -35,7 +35,7 @@ tryItOutSection =
                 [ code_
                     [ text
                         """upstream =
-      https://raw.githubusercontent.com/working-group-purescript-es/package-sets/main/packages.dhall
+      https://github.com/working-group-purescript-es/package-sets/releases/download/0.1.0/package-set.dhall
 """
                     ]
                 ]
